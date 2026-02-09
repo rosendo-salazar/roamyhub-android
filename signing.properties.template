@@ -1,0 +1,8 @@
+# Signing configuration template
+# Copy this file to signing.properties and fill in your actual values
+# DO NOT COMMIT signing.properties - it is gitignored for security
+
+storeFile=/path/to/your/keystore.jks
+storePassword=YOUR_STORE_PASSWORD
+keyAlias=YOUR_KEY_ALIAS
+keyPassword=YOUR_KEY_PASSWORD

@@ -4,6 +4,8 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.intPreferencesKey
+import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
@@ -109,6 +111,48 @@ class PreferencesManager @Inject constructor(
     suspend fun clear() {
         dataStore.edit { preferences ->
             preferences.clear()
+        }
+    }
+
+    /**
+     * Get an integer preference value
+     * @param key The preference key
+     * @param defaultValue The default value if not found
+     * @return Flow of the integer value
+     */
+    fun getInt(key: String, defaultValue: Int): Flow<Int> = dataStore.data.map { preferences ->
+        preferences[intPreferencesKey(key)] ?: defaultValue
+    }
+
+    /**
+     * Set an integer preference value
+     * @param key The preference key
+     * @param value The value to set
+     */
+    suspend fun putInt(key: String, value: Int) {
+        dataStore.edit { preferences ->
+            preferences[intPreferencesKey(key)] = value
+        }
+    }
+
+    /**
+     * Get a long preference value
+     * @param key The preference key
+     * @param defaultValue The default value if not found
+     * @return Flow of the long value
+     */
+    fun getLong(key: String, defaultValue: Long): Flow<Long> = dataStore.data.map { preferences ->
+        preferences[longPreferencesKey(key)] ?: defaultValue
+    }
+
+    /**
+     * Set a long preference value
+     * @param key The preference key
+     * @param value The value to set
+     */
+    suspend fun putLong(key: String, value: Long) {
+        dataStore.edit { preferences ->
+            preferences[longPreferencesKey(key)] = value
         }
     }
 }

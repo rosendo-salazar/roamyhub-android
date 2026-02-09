@@ -1,3 +1,6 @@
+import java.io.FileInputStream
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -7,6 +10,13 @@ plugins {
     alias(libs.plugins.kotlin.kapt)
     alias(libs.plugins.google.services)
     alias(libs.plugins.firebase.crashlytics)
+}
+
+// Load signing configuration
+val signingPropertiesFile = rootProject.file("signing.properties")
+val signingProperties = Properties()
+if (signingPropertiesFile.exists()) {
+    signingProperties.load(FileInputStream(signingPropertiesFile))
 }
 
 android {
@@ -26,6 +36,17 @@ android {
         }
     }
 
+    signingConfigs {
+        create("release") {
+            if (signingPropertiesFile.exists()) {
+                storeFile = file(signingProperties.getProperty("storeFile"))
+                storePassword = signingProperties.getProperty("storePassword")
+                keyAlias = signingProperties.getProperty("keyAlias")
+                keyPassword = signingProperties.getProperty("keyPassword")
+            }
+        }
+    }
+
     buildTypes {
         debug {
             applicationIdSuffix = ".debug"
@@ -40,6 +61,9 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            if (signingPropertiesFile.exists()) {
+                signingConfig = signingConfigs.getByName("release")
+            }
         }
     }
 
@@ -130,6 +154,14 @@ dependencies {
     // Coroutines
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.kotlinx.coroutines.play.services)
+
+    // Networking (for error handling)
+    implementation(libs.retrofit)
+    implementation(libs.okhttp)
+
+    // In-App Review
+    implementation(libs.play.core.review)
+    implementation(libs.play.core.review.ktx)
 
     // Testing
     testImplementation(libs.junit)

@@ -21,6 +21,7 @@ import com.roamyhub.android.viewmodel.MainViewModel
 @Composable
 fun RoamyNavHost(
     modifier: Modifier = Modifier,
+    initialDeepLink: String? = null,
     viewModel: MainViewModel = hiltViewModel()
 ) {
     val navController = rememberNavController()
@@ -54,6 +55,7 @@ fun RoamyNavHost(
             ) {
                 composable(Route.Main.Graph.route) {
                     MainScreen(
+                        initialDeepLink = initialDeepLink,
                         onNavigateToAuth = {
                             viewModel.signOut()
                         }

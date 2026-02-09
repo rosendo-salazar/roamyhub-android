@@ -1,34 +1,61 @@
 package com.roamyhub.android.core.common.extensions
 
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.flow.map
-import kotlinx.coroutines.flow.onStart
 import com.roamyhub.android.core.common.result.Resource
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.retryWhen
+import java.io.IOException
+import kotlin.math.pow
 
 /**
- * Wraps Flow emissions in Resource.Success, errors in Resource.Error,
- * and optionally emits Resource.Loading at the start
+ * Extension functions for Flow
  */
-fun <T> Flow<T>.asResource(emitLoading: Boolean = true): Flow<Resource<T>> {
-    return this
-        .map<T, Resource<T>> { Resource.Success(it) }
-        .onStart { if (emitLoading) emit(Resource.Loading()) }
-        .catch { emit(Resource.Error(it.message ?: "An unknown error occurred")) }
+
+/**
+ * Retry a flow with exponential backoff
+ * Useful for network requests that may fail transiently
+ *
+ * @param retries Maximum number of retry attempts (default: 3)
+ * @param initialDelay Initial delay in milliseconds (default: 1000ms)
+ * @param maxDelay Maximum delay in milliseconds (default: 10000ms)
+ * @param factor Multiplier for exponential backoff (default: 2.0)
+ */
+fun <T> Flow<Resource<T>>.withRetry(
+    retries: Int = 3,
+    initialDelay: Long = 1000,
+    maxDelay: Long = 10000,
+    factor: Double = 2.0
+): Flow<Resource<T>> = this.retryWhen { cause, attempt ->
+    if (attempt < retries && cause is IOException) {
+        val delayTime = (initialDelay * factor.pow(attempt.toDouble())).toLong()
+            .coerceAtMost(maxDelay)
+        delay(delayTime)
+        true
+    } else {
+        false
+    }
 }
 
 /**
- * Catches exceptions and emits a default value instead
+ * Retry any flow with exponential backoff on IOException
+ *
+ * @param retries Maximum number of retry attempts (default: 3)
+ * @param initialDelay Initial delay in milliseconds (default: 1000ms)
+ * @param maxDelay Maximum delay in milliseconds (default: 10000ms)
+ * @param factor Multiplier for exponential backoff (default: 2.0)
  */
-fun <T> Flow<T>.catchWithDefault(defaultValue: T): Flow<T> {
-    return this.catch { emit(defaultValue) }
-}
-
-/**
- * Catches exceptions and emits null instead
- */
-fun <T> Flow<T>.catchWithNull(): Flow<T?> {
-    return this
-        .map<T, T?> { it }
-        .catch { emit(null) }
+fun <T> Flow<T>.retryWithBackoff(
+    retries: Int = 3,
+    initialDelay: Long = 1000,
+    maxDelay: Long = 10000,
+    factor: Double = 2.0
+): Flow<T> = this.retryWhen { cause, attempt ->
+    if (attempt < retries && cause is IOException) {
+        val delayTime = (initialDelay * factor.pow(attempt.toDouble())).toLong()
+            .coerceAtMost(maxDelay)
+        delay(delayTime)
+        true
+    } else {
+        false
+    }
 }

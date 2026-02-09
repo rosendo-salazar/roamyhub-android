@@ -17,6 +17,7 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -25,11 +26,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.roamyhub.android.navigation.Route
+import com.roamyhub.android.version.ForceUpdateDialog
+import com.roamyhub.android.version.VersionStatus
+import com.roamyhub.android.viewmodel.MainViewModel
 
 /**
  * Main screen with bottom navigation
@@ -37,10 +42,28 @@ import com.roamyhub.android.navigation.Route
 @Composable
 fun MainScreen(
     onNavigateToAuth: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    initialDeepLink: String? = null,
+    viewModel: MainViewModel = hiltViewModel()
 ) {
     val navController = rememberNavController()
     var selectedTab by rememberSaveable { mutableIntStateOf(0) }
+    val versionStatus by viewModel.versionStatus.collectAsState()
+
+    // TODO: Handle deep link navigation when implemented
+    // LaunchedEffect(initialDeepLink) {
+    //     initialDeepLink?.let { route ->
+    //         navController.navigate(route)
+    //     }
+    // }
+
+    // Show version update dialog if needed
+    if (versionStatus !is VersionStatus.UpToDate) {
+        ForceUpdateDialog(
+            versionStatus = versionStatus,
+            onDismiss = { viewModel.dismissVersionDialog() }
+        )
+    }
 
     Scaffold(
         modifier = modifier,
