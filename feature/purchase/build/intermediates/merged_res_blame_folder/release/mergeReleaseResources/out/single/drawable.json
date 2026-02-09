@@ -1,0 +1,1222 @@
+[
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_btn_check_material_anim.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/notification_icon_background.xml",
+        "source": "com.roamyhub.android.feature.purchase-core-1.17.0-43:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/pay_button_generic_background_dark.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-wallet-19.3.0-75:/drawable/pay_button_generic_background_dark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_mtrl_checked_circle.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/ic_mtrl_checked_circle.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_card_visa.xml",
+        "source": "com.roamyhub.android.feature.purchase-stripe-ui-core-20.49.0-34:/drawable/stripe_ic_card_visa.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_link_logo_bw.xml",
+        "source": "com.roamyhub.android.feature.purchase-stripe-ui-core-20.49.0-34:/drawable/stripe_link_logo_bw.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_keyboard_black_24dp.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/ic_keyboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_text_light.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_affirm.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_affirm.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_discover_unpadded.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_discover_unpadded.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_delete_symbol.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_delete_symbol.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_ctil_chevron_down.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_ctil_chevron_down.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_cvc_amex.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_cvc_amex.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_btn_radio_material_anim.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_btn_radio_material_anim.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_card_mastercard.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_card_mastercard.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/design_password_eye.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_mastercard_unpadded.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_mastercard_unpadded.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/material_ic_clear_black_24dp.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/material_ic_clear_black_24dp.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_switch_thumb_unchecked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_switch_thumb_unchecked.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_svb.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_svb.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_switch_thumb_pressed_checked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_switch_thumb_pressed_checked.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_sunbit.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_sunbit.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_hsbc.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_hsbc.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ic_clear_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_p24.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_p24.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_error_amex.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_error_amex.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_jcb.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_jcb.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_blik.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_blik.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_item_background_holo_light.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_googlepay_primary_button_lock.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_googlepay_primary_button_lock.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_ctil_chevron_up.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_ctil_chevron_up.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_amazon_pay.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_amazon_pay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/avd_show_password.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/avd_show_password.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_ambank.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_ambank.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_checkbox_button_checked_unchecked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_checkbox_button_checked_unchecked.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_checkmark_tinted.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_checkmark_tinted.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_call_decline_low.xml",
+        "source": "com.roamyhub.android.feature.purchase-core-1.17.0-43:/drawable/ic_call_decline_low.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_card_jcb.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_card_jcb.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_diners.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_diners.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/test_level_drawable.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/test_level_drawable.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/btn_radio_on_to_off_mtrl_animation.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_morganchase.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_morganchase.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/pay_button_generic_background_light.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-wallet-19.3.0-75:/drawable/pay_button_generic_background_light.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_call_answer_video.xml",
+        "source": "com.roamyhub.android.feature.purchase-core-1.17.0-43:/drawable/ic_call_answer_video.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/avd_hide_password.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/avd_hide_password.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/material_ic_calendar_black_24dp.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/material_ic_calendar_black_24dp.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ic_menu_selectall_mtrl_alpha.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ic_menu_selectall_mtrl_alpha.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_bank.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_bank.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_link_error.xml",
+        "source": "com.roamyhub.android.feature.purchase-link-20.49.0-28:/drawable/stripe_link_error.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_bottomsheet_drag_handle.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_bottomsheet_drag_handle.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_grabpay.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_grabpay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_switch_thumb_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_fpx.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_fpx.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_alma.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_alma.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_dialog_background.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_dialog_background.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/material_ic_keyboard_arrow_left_black_24dp.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/material_ic_keyboard_arrow_left_black_24dp.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_ic_indeterminate.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_ic_indeterminate.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_card_visa.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_card_visa.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_switch_thumb_unchecked_checked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_switch_thumb_unchecked_checked.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_islam.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_islam.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_link_logo_knockout_white.xml",
+        "source": "com.roamyhub.android.feature.purchase-link-20.49.0-28:/drawable/stripe_link_logo_knockout_white.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_stripe.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_stripe.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_seekbar_thumb_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_ic_check_mark.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_ic_check_mark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_revolut_pay.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_revolut_pay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_card_progress_background.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_card_progress_background.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_cab_background_top_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/design_snackbar_background.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_sepa_debit.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_sepa_debit.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_public.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_public.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/material_ic_keyboard_arrow_right_black_24dp.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/material_ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_call_answer.xml",
+        "source": "com.roamyhub.android.feature.purchase-core-1.17.0-43:/drawable/ic_call_answer.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_3ds2_ic_amex.xml",
+        "source": "com.roamyhub.android.feature.purchase-stripe-3ds2-android-6.1.8-3:/drawable/stripe_3ds2_ic_amex.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_eps.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_eps.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_link_logo_knockout_black.xml",
+        "source": "com.roamyhub.android.feature.purchase-link-20.49.0-28:/drawable/stripe_link_logo_knockout_black.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_card_discover.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_card_discover.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_cimb.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_cimb.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_checkbox_button_icon.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_checkbox_button_icon.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ic_search_api_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_btn_borderless_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/btn_radio_off_mtrl.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_vector_test.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-resources-1.6.1-72:/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_unionpay_template_32.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_unionpay_template_32.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_call_answer_video_low.xml",
+        "source": "com.roamyhub.android.feature.purchase-core-1.17.0-43:/drawable/ic_call_answer_video_low.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_simple_button_background.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_simple_button_background.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_search.xml",
+        "source": "com.roamyhub.android.feature.purchase-stripe-ui-core-20.49.0-34:/drawable/stripe_ic_search.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_3ds2_ic_indicator.xml",
+        "source": "com.roamyhub.android.feature.purchase-stripe-3ds2-android-6.1.8-3:/drawable/stripe_3ds2_ic_indicator.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_kfh.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_kfh.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_hcaptcha_logo.xml",
+        "source": "com.roamyhub.android.feature.purchase-hcaptcha-20.49.0-26:/drawable/stripe_ic_hcaptcha_logo.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_mobile_pay.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_mobile_pay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_m3_chip_close.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/ic_m3_chip_close.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_cvc.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_cvc.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_close.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_close.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_twint.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_twint.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_list_selector_holo_dark.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/btn_checkbox_unchecked_mtrl.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_checkbox_button_icon_checked_unchecked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_checkbox_button_icon_checked_unchecked.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_zip.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_zip.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_add_black_32dp.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_add_black_32dp.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_sepa.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_sepa.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_amex.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_amex.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_btn_check_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_nfcu.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_nfcu.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_clear_black_24.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/ic_clear_black_24.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_rhb.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_rhb.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_ic_arrow_drop_down.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_card_unknown.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_card_unknown.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ic_go_search_api_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_raykat.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_raykat.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_suntrust.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_suntrust.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_hong_leong.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_hong_leong.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_switch_thumb_pressed.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_switch_thumb_pressed.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_usaa.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_usaa.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_diners_template_32.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_diners_template_32.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_klarna.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_klarna.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ic_menu_cut_mtrl_alpha.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ic_menu_cut_mtrl_alpha.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/m3_password_eye.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/m3_password_eye.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_ic_checkbox_unchecked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_ic_checkbox_unchecked.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_switch_thumb_checked_pressed.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_switch_thumb_checked_pressed.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/m3_tabs_rounded_line_indicator.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/m3_tabs_rounded_line_indicator.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_multibanco.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_multibanco.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_cartes_bancaires.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_cartes_bancaires.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_card_form_view_text_input_layout_background.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_card_form_view_text_input_layout_background.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ic_ab_back_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_capitalone.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_capitalone.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/m3_popupmenu_background_overlay.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/m3_popupmenu_background_overlay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/design_fab_background.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_visa_unpadded.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_visa_unpadded.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_generic.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_generic.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_alipay.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_alipay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_arrow_back_black_24.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/ic_arrow_back_black_24.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/m3_avd_hide_password.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/m3_avd_hide_password.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/pay_button_generic_background_mask_dark.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-wallet-19.3.0-75:/drawable/pay_button_generic_background_mask_dark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_3ds2_ic_visa.xml",
+        "source": "com.roamyhub.android.feature.purchase-stripe-3ds2-android-6.1.8-3:/drawable/stripe_3ds2_ic_visa.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_unknown.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_unknown.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_switch_track.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_switch_track.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_link.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_link.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/material_ic_menu_arrow_up_black_24dp.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/material_ic_menu_arrow_up_black_24dp.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_call_answer_low.xml",
+        "source": "com.roamyhub.android.feature.purchase-core-1.17.0-43:/drawable/ic_call_answer_low.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_error.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_error.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_td.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_td.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_pnc.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_pnc.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_3ds2_ic_cartesbancaires.png",
+        "source": "com.roamyhub.android.feature.purchase-stripe-3ds2-android-6.1.8-3:/drawable/stripe_3ds2_ic_cartesbancaires.png"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_ctil_chevron.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_ctil_chevron.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_google_pay_mark.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_google_pay_mark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_afterpay_clearpay.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_afterpay_clearpay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_switch_thumb.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_switch_thumb.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/m3_bottom_sheet_drag_handle.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/m3_bottom_sheet_drag_handle.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_affirm_logo.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_affirm_logo.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_satispay.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_satispay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_maybank.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_maybank.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/material_ic_menu_arrow_down_black_24dp.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/material_ic_menu_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_cartebancaire_template_32.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_cartebancaire_template_32.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_call_decline.xml",
+        "source": "com.roamyhub.android.feature.purchase-core-1.17.0-43:/drawable/ic_call_decline.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_bancontact.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_bancontact.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/tooltip_frame_dark.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_mtrl_chip_close_circle.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_switch_thumb_checked_unchecked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_switch_thumb_checked_unchecked.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_arrow_down.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_arrow_down.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_wechat_pay.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_wechat_pay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_seekbar_track_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/design_ic_visibility_off.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_edit_symbol.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_edit_symbol.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_add_dark.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_add_dark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_3ds2_ic_discover.xml",
+        "source": "com.roamyhub.android.feature.purchase-stripe-3ds2-android-6.1.8-3:/drawable/stripe_3ds2_ic_discover.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_konbini.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_konbini.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_googlepay_primary_button_checkmark.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_googlepay_primary_button_checkmark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/m3_avd_show_password.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/m3_avd_show_password.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/tooltip_frame_light.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_checkbox_button_unchecked_checked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_checkbox_button_unchecked_checked.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_swish.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_swish.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_oxxo.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_oxxo.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_3ds2_ic_mastercard.xml",
+        "source": "com.roamyhub.android.feature.purchase-stripe-3ds2-android-6.1.8-3:/drawable/stripe_3ds2_ic_mastercard.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_item_background_holo_dark.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_tabs_default_indicator.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_bacs_direct_debit_mark.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_bacs_direct_debit_mark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_visa.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_visa.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_card.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_card.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_checkbox_button_icon_checked_indeterminate.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_checkbox_button_icon_checked_indeterminate.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/material_ic_edit_black_24dp.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/material_ic_edit_black_24dp.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_3ds2_ic_unionpay.xml",
+        "source": "com.roamyhub.android.feature.purchase-stripe-3ds2-android-6.1.8-3:/drawable/stripe_3ds2_ic_unionpay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/notification_bg_low.xml",
+        "source": "com.roamyhub.android.feature.purchase-core-1.17.0-43:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_switch_thumb_pressed_unchecked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_switch_thumb_pressed_unchecked.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ratingbar_small_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/navigation_empty_icon.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_unionpay.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_unionpay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_mtrl_chip_checked_black.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_trash.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_trash.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_star_half_black_48dp.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_star_half_black_48dp.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_discover.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_discover.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_clear.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_clear.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_cartes_bancaires_unpadded.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_cartes_bancaires_unpadded.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_chevron_down.xml",
+        "source": "com.roamyhub.android.feature.purchase-stripe-ui-core-20.49.0-34:/drawable/stripe_ic_chevron_down.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_bsn.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_bsn.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_standard_chartered.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_standard_chartered.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_becs.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_becs.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_checkbox_button_icon_unchecked_indeterminate.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_checkbox_button_icon_unchecked_indeterminate.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/notification_tile_bg.xml",
+        "source": "com.roamyhub.android.feature.purchase-core-1.17.0-43:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_3ds2_ic_arrow.xml",
+        "source": "com.roamyhub.android.feature.purchase-stripe-3ds2-android-6.1.8-3:/drawable/stripe_3ds2_ic_arrow.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_afterpay_logo.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_afterpay_logo.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/notification_bg.xml",
+        "source": "com.roamyhub.android.feature.purchase-core-1.17.0-43:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_dropdown_arrow.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_dropdown_arrow.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/btn_checkbox_checked_mtrl.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_compass.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_compass.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_clearpay_logo.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_clearpay_logo.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_list_selector_holo_light.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_card_amex.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_card_amex.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_checkbox_button.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_checkbox_button.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_ic_checkbox_checked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_ic_checkbox_checked.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ic_menu_share_mtrl_alpha.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ic_menu_share_mtrl_alpha.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_checkmark.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_checkmark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_cash_app_pay.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_cash_app_pay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_boa.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_boa.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_ic_arrow_drop_up.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_ic_arrow_drop_up.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_muamalat.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_muamalat.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/m3_tabs_line_indicator.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/m3_tabs_line_indicator.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_mtrl_chip_checked_circle.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_ic_cancel.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_ic_cancel.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_3ds2_ic_unknown.xml",
+        "source": "com.roamyhub.android.feature.purchase-stripe-3ds2-android-6.1.8-3:/drawable/stripe_3ds2_ic_unknown.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_switch_track_decoration.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_switch_track_decoration.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_paypal.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_paypal.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_link_arrow.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_link_arrow.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_switch_thumb_checked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_switch_thumb_checked.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_usbank.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_usbank.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_checkbox_button_icon_indeterminate_checked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_checkbox_button_icon_indeterminate_checked.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/pay_button_generic_background_mask_light.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-wallet-19.3.0-75:/drawable/pay_button_generic_background_mask_light.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_m3_chip_check.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/ic_m3_chip_check.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_card_unionpay.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_card_unionpay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_cab_background_internal_bg.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_star_black_48dp.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_star_black_48dp.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_btn_radio_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_jcb_unpadded.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_jcb_unpadded.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/design_ic_visibility.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/design_ic_visibility.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_diners_unpadded.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_diners_unpadded.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_uob.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_uob.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_discover_template_32.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_discover_template_32.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_m3_chip_checked_circle.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/ic_m3_chip_checked_circle.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_paymentsheet_testmode_background.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_paymentsheet_testmode_background.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_add_light.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_add_light.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_back.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_back.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_checkbox_button_icon_indeterminate_unchecked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_checkbox_button_icon_indeterminate_unchecked.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_mastercard_template_32.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_mastercard_template_32.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_popupmenu_background.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_popupmenu_background.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_affin.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_affin.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/btn_radio_on_mtrl.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_citi.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_citi.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_clock_black_24dp.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/ic_clock_black_24dp.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_ratingbar_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_boleto.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_boleto.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_visa_template_32.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_visa_template_32.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/btn_radio_off_to_on_mtrl_animation.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/btn_radio_off_to_on_mtrl_animation.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_amex_unpadded.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_amex_unpadded.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_wellsfargo.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_wellsfargo.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_switch_thumb_unchecked_pressed.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_switch_thumb_unchecked_pressed.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_unionpay_unpadded.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_unionpay_unpadded.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_photo_camera.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_photo_camera.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_giropay.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_giropay.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_amex_template_32.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_amex_template_32.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_jcb_template_32.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_jcb_template_32.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_billie.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_billie.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_upi.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_upi.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_card_cartes_bancaires.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_card_cartes_bancaires.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_textfield_search_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_ocbc.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_ocbc.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_bank.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_bank.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_error.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_error.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "com.roamyhub.android.feature.purchase-play-services-base-18.3.0-36:/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_card_dinersclub.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_card_dinersclub.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_ic_error.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_ic_error.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_polling_failure.xml",
+        "source": "com.roamyhub.android.feature.purchase-paymentsheet-20.49.0-32:/drawable/stripe_ic_paymentsheet_polling_failure.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_paymentsheet_pm_ideal.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_paymentsheet_pm_ideal.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/ic_search_black_24.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/ic_search_black_24.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_lock.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-ui-core-20.49.0-10:/drawable/stripe_ic_lock.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_text_cursor_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_bank_alliance.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable/stripe_ic_bank_alliance.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/abc_tab_indicator_material.xml",
+        "source": "com.roamyhub.android.feature.purchase-appcompat-1.6.1-48:/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/stripe_ic_mastercard.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-model-20.49.0-82:/drawable/stripe_ic_mastercard.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable/mtrl_checkbox_button_icon_unchecked_checked.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/drawable/mtrl_checkbox_button_icon_unchecked_checked.xml"
+    }
+]

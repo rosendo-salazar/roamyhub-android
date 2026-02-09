@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/menu/stripe_payment_auth_web_view_menu.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/menu/stripe_payment_auth_web_view_menu.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/menu/stripe_add_payment_method.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/menu/stripe_add_payment_method.xml"
+    }
+]

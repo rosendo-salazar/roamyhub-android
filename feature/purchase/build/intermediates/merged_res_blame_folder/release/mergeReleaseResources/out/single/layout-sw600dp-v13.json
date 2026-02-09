@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "com.roamyhub.android.feature.purchase-material-1.11.0-39:/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
+    }
+]

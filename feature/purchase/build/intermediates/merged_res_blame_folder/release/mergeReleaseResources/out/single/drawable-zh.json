@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.roamyhub.android.feature.purchase-release-96:/drawable-zh/stripe_ic_unionpay_template_32.xml",
+        "source": "com.roamyhub.android.feature.purchase-payments-core-20.49.0-55:/drawable-zh/stripe_ic_unionpay_template_32.xml"
+    }
+]

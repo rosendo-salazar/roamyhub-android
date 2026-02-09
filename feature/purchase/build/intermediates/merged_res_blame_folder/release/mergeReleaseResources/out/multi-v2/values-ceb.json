@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.roamyhub.android.feature.purchase-release-96:/values-ceb/values-ceb.xml",
+            "map": [
+                {
+                    "source": "/Users/rosendosalazar/.gradle/caches/8.13/transforms/4c41d0fde2a399abd8031d8df75c76e1/transformed/hcaptcha-20.49.0/res/values-ceb/values-ceb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "86",
+                        "endOffsets": "137"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.roamyhub.android.feature.purchase-mergeReleaseResources-94:/values-ceb/values-ceb.xml",
+            "map": [
+                {
+                    "source": "/Users/rosendosalazar/.gradle/caches/8.13/transforms/4c41d0fde2a399abd8031d8df75c76e1/transformed/hcaptcha-20.49.0/res/values-ceb/values-ceb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "86",
+                        "endOffsets": "137"
+                    }
+                }
+            ]
+        }
+    ]
+}
