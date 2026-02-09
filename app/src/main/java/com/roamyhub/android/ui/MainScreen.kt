@@ -1,6 +1,5 @@
 package com.roamyhub.android.ui
 
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -22,7 +21,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
@@ -32,6 +30,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.roamyhub.android.core.domain.model.user.AuthState
+import com.roamyhub.android.feature.plans.browse.navigation.browseNavGraph
+import com.roamyhub.android.feature.plans.home.navigation.homeNavGraph
 import com.roamyhub.android.navigation.Route
 import com.roamyhub.android.version.ForceUpdateDialog
 import com.roamyhub.android.version.VersionStatus
@@ -143,40 +143,60 @@ private fun MainNavHost(
         startDestination = Route.Main.Home.route,
         modifier = modifier
     ) {
+        // Home tab - always accessible
         composable(Route.Main.Home.route) {
-            PlaceholderScreen("Home")
+            val homeNavController = rememberNavController()
+            NavHost(
+                navController = homeNavController,
+                startDestination = "home",
+                modifier = Modifier.fillMaxSize()
+            ) {
+                homeNavGraph(homeNavController)
+                // Also add browse nav graph for navigation from home
+                browseNavGraph(
+                    navController = homeNavController,
+                    onNavigateToCheckout = { planId ->
+                        // TODO: Navigate to checkout with auth check
+                    },
+                    onNavigateToAuth = onNavigateToAuth
+                )
+            }
         }
+
+        // Browse tab - always accessible
         composable(Route.Main.Browse.route) {
-            PlaceholderScreen("Browse")
+            val browseNavController = rememberNavController()
+            NavHost(
+                navController = browseNavController,
+                startDestination = "browse_home",
+                modifier = Modifier.fillMaxSize()
+            ) {
+                browseNavGraph(
+                    navController = browseNavController,
+                    onNavigateToCheckout = { planId ->
+                        // TODO: Navigate to checkout with auth check
+                    },
+                    onNavigateToAuth = onNavigateToAuth
+                )
+            }
         }
+
+        // My eSIMs tab - auth required
         composable(Route.Main.MyESims.route) {
-            // eSIM list requires authentication
             com.roamyhub.android.feature.esims.ui.ESimListScreenWrapper(
                 authState = authState,
                 onNavigateToAuth = onNavigateToAuth
             )
         }
+
+        // Profile tab - guest content available
         composable(Route.Main.Profile.route) {
-            // Profile shows guest content if not authenticated
             com.roamyhub.android.feature.profile.ui.ProfileScreenWrapper(
                 authState = authState,
                 onNavigateToAuth = onNavigateToAuth,
                 onSignOut = onSignOut
             )
         }
-    }
-}
-
-@Composable
-private fun PlaceholderScreen(name: String) {
-    Box(
-        modifier = Modifier.fillMaxSize(),
-        contentAlignment = Alignment.Center
-    ) {
-        Text(
-            text = "$name Screen\n(Coming in Phase 5-8)",
-            style = MaterialTheme.typography.headlineMedium
-        )
     }
 }
 

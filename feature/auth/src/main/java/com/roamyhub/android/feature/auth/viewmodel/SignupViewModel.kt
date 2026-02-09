@@ -170,7 +170,7 @@ class SignupViewModel @Inject constructor(
             !isFirstNameValid -> "First name is required"
             !isLastNameValid -> "Last name is required"
             !isEmailValid -> "Please enter a valid email address"
-            !isPasswordValid -> "Password must be at least 8 characters with letters and numbers"
+            !isPasswordValid -> "Password must be at least 6 characters"
             !isConfirmPasswordValid -> "Passwords do not match"
             !state.termsAccepted -> "You must accept the terms and conditions"
             else -> null
@@ -198,15 +198,11 @@ class SignupViewModel @Inject constructor(
     }
 
     /**
-     * Validate password requirements:
-     * - At least 8 characters
-     * - Contains at least one letter
-     * - Contains at least one number
+     * Validate password requirements (matching iOS):
+     * - At least 6 characters
      */
     private fun validatePassword(password: String): Boolean {
-        return password.length >= 8 &&
-                password.any { it.isLetter() } &&
-                password.any { it.isDigit() }
+        return password.length >= 6
     }
 
     /**

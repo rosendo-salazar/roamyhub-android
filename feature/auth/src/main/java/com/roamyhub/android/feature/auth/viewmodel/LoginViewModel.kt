@@ -144,7 +144,7 @@ class LoginViewModel @Inject constructor(
                 isPasswordValid = isPasswordValid,
                 error = when {
                     !isEmailValid -> "Please enter a valid email address"
-                    !isPasswordValid -> "Password must be at least 8 characters"
+                    !isPasswordValid -> "Password must be at least 6 characters"
                     else -> null
                 }
             )
@@ -161,10 +161,10 @@ class LoginViewModel @Inject constructor(
     }
 
     /**
-     * Validate password requirements
+     * Validate password requirements (matching iOS)
      */
     private fun validatePassword(password: String): Boolean {
-        return password.length >= 8
+        return password.length >= 6
     }
 
     /**

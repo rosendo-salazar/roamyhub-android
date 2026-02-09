@@ -83,7 +83,7 @@ public final class LoginViewModel extends androidx.lifecycle.ViewModel {
     }
     
     /**
-     * Validate password requirements
+     * Validate password requirements (matching iOS)
      */
     private final boolean validatePassword(java.lang.String password) {
         return false;

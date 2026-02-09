@@ -97,10 +97,8 @@ public final class SignupViewModel extends androidx.lifecycle.ViewModel {
     }
     
     /**
-     * Validate password requirements:
-     * - At least 8 characters
-     * - Contains at least one letter
-     * - Contains at least one number
+     * Validate password requirements (matching iOS):
+     * - At least 6 characters
      */
     private final boolean validatePassword(java.lang.String password) {
         return false;
