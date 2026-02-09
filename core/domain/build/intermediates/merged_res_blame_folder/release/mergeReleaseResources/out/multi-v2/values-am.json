@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.roamyhub.android.core.domain-mergeReleaseResources-11:/values-am/values-am.xml",
+            "map": [
+                {
+                    "source": "/Users/rosendosalazar/.gradle/caches/8.13/transforms/163c74b1f2c40539c765c558938bf753/transformed/core-1.17.0/res/values-am/values-am.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,148,248,345,444,540,642,742",
+                        "endColumns": "92,99,96,98,95,101,99,100",
+                        "endOffsets": "143,243,340,439,535,637,737,838"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.roamyhub.android.core.domain-release-13:/values-am/values-am.xml",
+            "map": [
+                {
+                    "source": "/Users/rosendosalazar/.gradle/caches/8.13/transforms/163c74b1f2c40539c765c558938bf753/transformed/core-1.17.0/res/values-am/values-am.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,148,248,345,444,540,642,742",
+                        "endColumns": "92,99,96,98,95,101,99,100",
+                        "endOffsets": "143,243,340,439,535,637,737,838"
+                    }
+                }
+            ]
+        }
+    ]
+}

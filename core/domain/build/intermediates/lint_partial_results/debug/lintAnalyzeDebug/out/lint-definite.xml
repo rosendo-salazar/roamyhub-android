@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.13.2" type="incidents">
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:core:domain*debug*MAIN*sourceProvider*0*javaDir*0}/com/roamyhub/android/core/domain/model/plan/Plan.kt"
+            line="49"
+            column="21"
+            startOffset="1637"
+            endLine="49"
+            endColumn="54"
+            endOffset="1670"/>
+    </incident>
+
+</incidents>

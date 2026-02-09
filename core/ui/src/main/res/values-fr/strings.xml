@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">RoamyHub</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Enregistrer</string>
+    <string name="delete">Supprimer</string>
+    <string name="edit">Modifier</string>
+    <string name="done">Terminé</string>
+    <string name="loading">Chargement…</string>
+    <string name="error">Erreur</string>
+    <string name="retry">Réessayer</string>
+    <string name="search">Rechercher</string>
+    <string name="filter">Filtrer</string>
+    <string name="close">Fermer</string>
+    <string name="back">Retour</string>
+    <string name="next">Suivant</string>
+    <string name="previous">Précédent</string>
+    <string name="submit">Soumettre</string>
+    <string name="continue_text">Continuer</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_browse">Parcourir</string>
+    <string name="nav_my_esims">Mes eSIM</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Auth -->
+    <string name="login_title">Bon retour</string>
+    <string name="login_subtitle">Connectez-vous à votre compte</string>
+    <string name="signup_title">Créer un compte</string>
+    <string name="signup_subtitle">Commencez avec RoamyHub</string>
+    <string name="email">E-mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirm_password">Confirmer le mot de passe</string>
+    <string name="first_name">Prénom</string>
+    <string name="last_name">Nom</string>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="sign_out">Se déconnecter</string>
+    <string name="sign_in_with_google">Se connecter avec Google</string>
+    <string name="or">ou</string>
+    <string name="dont_have_account">Vous n\'avez pas de compte ?</string>
+    <string name="already_have_account">Vous avez déjà un compte ?</string>
+    <string name="reset_password_title">Réinitialiser le mot de passe</string>
+    <string name="reset_password_description">Saisissez votre e-mail pour recevoir un lien de réinitialisation</string>
+    <string name="send_reset_link">Envoyer le lien</string>
+
+    <!-- Plans -->
+    <string name="plans_title">Forfaits de données</string>
+    <string name="plan_details">Détails du forfait</string>
+    <string name="data">Données</string>
+    <string name="validity">Validité</string>
+    <string name="coverage">Couverture</string>
+    <string name="price">Prix</string>
+    <string name="buy_now">Acheter maintenant</string>
+    <string name="select_plan">Sélectionner un forfait</string>
+    <string name="view_details">Voir les détails</string>
+    <string name="countries">Pays</string>
+    <string name="regions">Régions</string>
+    <string name="global_plans">Forfaits mondiaux</string>
+
+    <!-- Checkout -->
+    <string name="checkout_title">Paiement</string>
+    <string name="order_summary">Récapitulatif de la commande</string>
+    <string name="subtotal">Sous-total</string>
+    <string name="discount">Réduction</string>
+    <string name="total">Total</string>
+    <string name="points_to_redeem">Points à échanger</string>
+    <string name="redeem_points">Échanger des points</string>
+    <string name="pay">Payer</string>
+    <string name="payment_successful">Paiement réussi</string>
+    <string name="order_confirmed">Commande confirmée</string>
+    <string name="view_esim">Voir l\'eSIM</string>
+
+    <!-- eSIMs -->
+    <string name="my_esims_title">Mes eSIM</string>
+    <string name="active">Actif</string>
+    <string name="expired">Expiré</string>
+    <string name="pending">En attente</string>
+    <string name="all">Tous</string>
+    <string name="data_remaining">Données restantes</string>
+    <string name="data_used">Données utilisées</string>
+    <string name="valid_until">Valide jusqu\'au</string>
+    <string name="qr_code">Code QR</string>
+    <string name="activation_code">Code d\'activation</string>
+    <string name="smdp_address">Adresse SM-DP+</string>
+    <string name="copy">Copier</string>
+    <string name="copied">Copié !</string>
+    <string name="esim_empty_state">Aucune eSIM pour le moment. Parcourez les forfaits pour commencer !</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profil</string>
+    <string name="edit_profile">Modifier le profil</string>
+    <string name="orders">Commandes</string>
+    <string name="rewards">Récompenses</string>
+    <string name="support">Assistance</string>
+    <string name="devices">Appareils</string>
+    <string name="faq">FAQ</string>
+    <string name="settings">Paramètres</string>
+    <string name="points">Points</string>
+    <string name="my_points">Mes points</string>
+
+    <!-- Orders -->
+    <string name="orders_title">Commandes</string>
+    <string name="order_details">Détails de la commande</string>
+    <string name="order_number">Commande nº %s</string>
+    <string name="order_date">Date de commande</string>
+    <string name="order_status">Statut</string>
+    <string name="download_receipt">Télécharger le reçu</string>
+
+    <!-- Support -->
+    <string name="support_title">Assistance</string>
+    <string name="create_ticket">Créer un ticket</string>
+    <string name="my_tickets">Mes tickets</string>
+    <string name="subject">Sujet</string>
+    <string name="message">Message</string>
+    <string name="send">Envoyer</string>
+    <string name="open">Ouvert</string>
+    <string name="closed">Fermé</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Paramètres</string>
+    <string name="language">Langue</string>
+    <string name="currency">Devise</string>
+    <string name="dark_mode">Mode sombre</string>
+    <string name="notifications">Notifications</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="terms_of_service">Conditions d\'utilisation</string>
+    <string name="delete_account">Supprimer le compte</string>
+    <string name="version">Version %s</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Une erreur s\'est produite. Veuillez réessayer.</string>
+    <string name="error_network">Pas de connexion Internet</string>
+    <string name="error_invalid_email">Veuillez saisir une adresse e-mail valide</string>
+    <string name="error_invalid_password">Le mot de passe doit contenir au moins 8 caractères</string>
+    <string name="error_password_mismatch">Les mots de passe ne correspondent pas</string>
+    <string name="error_required_field">Ce champ est obligatoire</string>
+
+    <!-- Empty States -->
+    <string name="empty_state_generic">Rien à afficher pour le moment</string>
+    <string name="empty_state_search">Aucun résultat trouvé</string>
+
+    <!-- Data Formats -->
+    <string name="data_mb">%d Mo</string>
+    <string name="data_gb">%.1f Go</string>
+    <string name="days">%d jours</string>
+    <string name="day">%d jour</string>
+</resources>
