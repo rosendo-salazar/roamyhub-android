@@ -90,4 +90,59 @@ class PlanRepositoryImpl @Inject constructor(
             Resource.Error(e.message ?: "Failed to fetch global plans")
         }
     }
+
+    override suspend fun getCountrySummaries(): Resource<List<CountrySummary>> {
+        return try {
+            val response = browseApiService.getCountrySummaries()
+            val summaries = response.summaries.map { it.toDomain() }
+            Resource.Success(summaries)
+        } catch (e: Exception) {
+            Log.e(TAG, "Failed to fetch country summaries", e)
+            Resource.Error(e.message ?: "Failed to fetch country summaries")
+        }
+    }
+
+    override suspend fun getRegionSummaries(): Resource<List<RegionSummary>> {
+        return try {
+            val response = browseApiService.getRegionSummaries()
+            val summaries = response.summaries.map { it.toDomain() }
+            Resource.Success(summaries)
+        } catch (e: Exception) {
+            Log.e(TAG, "Failed to fetch region summaries", e)
+            Resource.Error(e.message ?: "Failed to fetch region summaries")
+        }
+    }
+
+    override suspend fun getGlobalSummary(): Resource<GlobalSummary?> {
+        return try {
+            val response = browseApiService.getGlobalSummary()
+            val summary = response.summary.toDomain()
+            Resource.Success(summary)
+        } catch (e: Exception) {
+            Log.e(TAG, "Failed to fetch global summary", e)
+            Resource.Error(e.message ?: "Failed to fetch global summary")
+        }
+    }
+
+    override suspend fun getCountryPlans(countryIso: String): Resource<List<Plan>> {
+        return try {
+            val response = planApiService.getPlansByCountry(countryIso)
+            val plans = response.plans.map { it.toDomain() }
+            Resource.Success(plans)
+        } catch (e: Exception) {
+            Log.e(TAG, "Failed to fetch plans for country: $countryIso", e)
+            Resource.Error(e.message ?: "Failed to fetch plans for country")
+        }
+    }
+
+    override suspend fun getRegionPlans(regionKey: String): Resource<List<Plan>> {
+        return try {
+            val response = planApiService.getPlansByRegion(regionKey)
+            val plans = response.plans.map { it.toDomain() }
+            Resource.Success(plans)
+        } catch (e: Exception) {
+            Log.e(TAG, "Failed to fetch plans for region: $regionKey", e)
+            Resource.Error(e.message ?: "Failed to fetch plans for region")
+        }
+    }
 }

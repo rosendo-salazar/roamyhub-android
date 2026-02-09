@@ -34,15 +34,52 @@ interface PlanRepository {
     suspend fun getPlanById(planId: String): Resource<Plan>
 
     /**
-     * Get plans available for a specific country
-     *
-     * Returns both country-specific plans and regional/global plans
-     * that include coverage for the specified country.
+     * Get country summaries for a specific country
      *
      * @param countryIso ISO 3166-1 alpha-2 country code (e.g., "US", "FR")
      * @return Resource containing list of CountrySummary with available plans
      */
     suspend fun getPlansByCountry(countryIso: String): Resource<List<CountrySummary>>
+
+    /**
+     * Get all country summaries for browsing
+     *
+     * @return Resource containing list of all CountrySummary
+     */
+    suspend fun getCountrySummaries(): Resource<List<CountrySummary>>
+
+    /**
+     * Get all region summaries for browsing
+     *
+     * @return Resource containing list of all RegionSummary
+     */
+    suspend fun getRegionSummaries(): Resource<List<RegionSummary>>
+
+    /**
+     * Get global summary for browsing
+     *
+     * @return Resource containing GlobalSummary
+     */
+    suspend fun getGlobalSummary(): Resource<GlobalSummary?>
+
+    /**
+     * Get actual plans available for a specific country
+     *
+     * Returns both country-specific plans and regional/global plans
+     * that include coverage for the specified country.
+     *
+     * @param countryIso ISO 3166-1 alpha-2 country code (e.g., "US", "FR")
+     * @return Resource containing list of Plan objects
+     */
+    suspend fun getCountryPlans(countryIso: String): Resource<List<Plan>>
+
+    /**
+     * Get actual plans for a specific region
+     *
+     * @param regionKey Region identifier
+     * @return Resource containing list of Plan objects
+     */
+    suspend fun getRegionPlans(regionKey: String): Resource<List<Plan>>
 
     /**
      * Get plans grouped by region

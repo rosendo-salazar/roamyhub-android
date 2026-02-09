@@ -68,6 +68,9 @@ dependencies {
     // Coroutines
     implementation(libs.kotlinx.coroutines.android)
 
+    // Image Loading
+    implementation(libs.coil.compose)
+
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
