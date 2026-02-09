@@ -45,7 +45,12 @@ class RoamyHubApplication : Application() {
         // Create notification channels
         NotificationChannelManager.createChannels(this)
 
-        Timber.d("API Base URL: ${BuildConfig.API_BASE_URL}")
+        // Log API base URL if available
+        try {
+            Timber.d("API Base URL: ${BuildConfig.API_BASE_URL}")
+        } catch (e: Exception) {
+            Timber.w("API_BASE_URL not configured in BuildConfig")
+        }
     }
 
     /**

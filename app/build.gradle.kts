@@ -34,6 +34,9 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
+        // Default API URL (will be overridden by product flavors)
+        buildConfigField("String", "API_BASE_URL", "\"https://api-stage.flyroamy.com/api\"")
     }
 
     signingConfigs {
