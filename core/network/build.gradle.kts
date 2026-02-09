@@ -15,16 +15,28 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
+
+        // API base URL configuration
+        buildConfigField("String", "API_BASE_URL", "\"https://api.roamyhub.com/v1/\"")
     }
 
     buildTypes {
+        debug {
+            // Use staging/dev API for debug builds if needed
+            buildConfigField("String", "API_BASE_URL", "\"https://api-dev.roamyhub.com/v1/\"")
+        }
         release {
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            buildConfigField("String", "API_BASE_URL", "\"https://api.roamyhub.com/v1/\"")
         }
+    }
+
+    buildFeatures {
+        buildConfig = true
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -47,6 +59,10 @@ dependencies {
     implementation(libs.retrofit.kotlinx.serialization)
     implementation(libs.okhttp)
     implementation(libs.okhttp.logging.interceptor)
+
+    // Firebase Auth (for token management)
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.auth)
 
     // Hilt
     implementation(libs.hilt.android)

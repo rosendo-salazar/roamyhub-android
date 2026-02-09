@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.roamyhub.android.feature.auth-release-69:/color-v23/abc_tint_edittext.xml",
+        "source": "com.roamyhub.android.feature.auth-appcompat-1.6.1-7:/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.auth-release-69:/color-v23/abc_btn_colored_text_material.xml",
+        "source": "com.roamyhub.android.feature.auth-appcompat-1.6.1-7:/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.auth-release-69:/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "com.roamyhub.android.feature.auth-appcompat-1.6.1-7:/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.auth-release-69:/color-v23/abc_tint_switch_track.xml",
+        "source": "com.roamyhub.android.feature.auth-appcompat-1.6.1-7:/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.auth-release-69:/color-v23/abc_tint_seek_thumb.xml",
+        "source": "com.roamyhub.android.feature.auth-appcompat-1.6.1-7:/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.auth-release-69:/color-v23/abc_tint_default.xml",
+        "source": "com.roamyhub.android.feature.auth-appcompat-1.6.1-7:/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.auth-release-69:/color-v23/abc_color_highlight_material.xml",
+        "source": "com.roamyhub.android.feature.auth-appcompat-1.6.1-7:/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.auth-release-69:/color-v23/abc_tint_btn_checkable.xml",
+        "source": "com.roamyhub.android.feature.auth-appcompat-1.6.1-7:/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.feature.auth-release-69:/color-v23/abc_tint_spinner.xml",
+        "source": "com.roamyhub.android.feature.auth-appcompat-1.6.1-7:/color-v23/abc_tint_spinner.xml"
+    }
+]

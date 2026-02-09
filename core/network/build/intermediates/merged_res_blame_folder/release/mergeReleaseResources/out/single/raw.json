@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.roamyhub.android.core.network-release-28:/raw/firebase_common_keep.xml",
+        "source": "com.roamyhub.android.core.network-firebase-common-21.0.0-22:/raw/firebase_common_keep.xml"
+    }
+]

@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.roamyhub.android.feature.auth-release-69:/drawable-ldpi-v23/fingerprint_dialog_error.png",
+        "source": "com.roamyhub.android.feature.auth-biometric-1.1.0-10:/drawable-ldpi-v23/fingerprint_dialog_error.png"
+    }
+]

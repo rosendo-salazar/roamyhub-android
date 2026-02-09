@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.roamyhub.android.core.network-release-28:/color/common_google_signin_btn_text_dark.xml",
+        "source": "com.roamyhub.android.core.network-play-services-base-18.0.1-6:/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.core.network-release-28:/color/common_google_signin_btn_text_light.xml",
+        "source": "com.roamyhub.android.core.network-play-services-base-18.0.1-6:/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.core.network-release-28:/color/common_google_signin_btn_tint.xml",
+        "source": "com.roamyhub.android.core.network-play-services-base-18.0.1-6:/color/common_google_signin_btn_tint.xml"
+    }
+]

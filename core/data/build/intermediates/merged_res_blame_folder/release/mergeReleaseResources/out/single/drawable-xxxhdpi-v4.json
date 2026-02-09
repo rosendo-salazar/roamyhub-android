@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.roamyhub.android.core.data-release-31:/drawable-xxxhdpi-v4/ic_password.png",
+        "source": "com.roamyhub.android.core.data-credentials-1.2.0-rc01-16:/drawable-xxxhdpi-v4/ic_password.png"
+    },
+    {
+        "merged": "com.roamyhub.android.core.data-release-31:/drawable-xxxhdpi-v4/ic_other_sign_in.png",
+        "source": "com.roamyhub.android.core.data-credentials-1.2.0-rc01-16:/drawable-xxxhdpi-v4/ic_other_sign_in.png"
+    },
+    {
+        "merged": "com.roamyhub.android.core.data-release-31:/drawable-xxxhdpi-v4/ic_passkey.png",
+        "source": "com.roamyhub.android.core.data-credentials-1.2.0-rc01-16:/drawable-xxxhdpi-v4/ic_passkey.png"
+    }
+]

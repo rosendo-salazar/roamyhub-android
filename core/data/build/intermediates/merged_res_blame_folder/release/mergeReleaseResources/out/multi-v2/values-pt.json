@@ -1,0 +1,102 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.roamyhub.android.core.data-release-31:/values-pt/values-pt.xml",
+            "map": [
+                {
+                    "source": "/Users/rosendosalazar/.gradle/caches/8.13/transforms/8ac805351f0d28ba0af6db45a38f5a4e/transformed/credentials-1.2.0-rc01/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,164",
+                        "endColumns": "108,121",
+                        "endOffsets": "159,281"
+                    }
+                },
+                {
+                    "source": "/Users/rosendosalazar/.gradle/caches/8.13/transforms/e995c9b544faa44388778657be6e309b/transformed/browser-1.4.0/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,170,269,381",
+                        "endColumns": "114,98,111,105",
+                        "endOffsets": "165,264,376,482"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1024,1139,1238,1350",
+                        "endColumns": "114,98,111,105",
+                        "endOffsets": "1134,1233,1345,1451"
+                    }
+                },
+                {
+                    "source": "/Users/rosendosalazar/.gradle/caches/8.13/transforms/163c74b1f2c40539c765c558938bf753/transformed/core-1.17.0/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,353,453,563,673,793",
+                        "endColumns": "96,101,98,99,109,109,119,100",
+                        "endOffsets": "147,249,348,448,558,668,788,889"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,15",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "286,383,485,584,684,794,904,1456",
+                        "endColumns": "96,101,98,99,109,109,119,100",
+                        "endOffsets": "378,480,579,679,789,899,1019,1552"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.roamyhub.android.core.data-mergeReleaseResources-29:/values-pt/values-pt.xml",
+            "map": [
+                {
+                    "source": "/Users/rosendosalazar/.gradle/caches/8.13/transforms/8ac805351f0d28ba0af6db45a38f5a4e/transformed/credentials-1.2.0-rc01/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,164",
+                        "endColumns": "108,121",
+                        "endOffsets": "159,281"
+                    }
+                },
+                {
+                    "source": "/Users/rosendosalazar/.gradle/caches/8.13/transforms/e995c9b544faa44388778657be6e309b/transformed/browser-1.4.0/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,170,269,381",
+                        "endColumns": "114,98,111,105",
+                        "endOffsets": "165,264,376,482"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1024,1139,1238,1350",
+                        "endColumns": "114,98,111,105",
+                        "endOffsets": "1134,1233,1345,1451"
+                    }
+                },
+                {
+                    "source": "/Users/rosendosalazar/.gradle/caches/8.13/transforms/163c74b1f2c40539c765c558938bf753/transformed/core-1.17.0/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,353,453,563,673,793",
+                        "endColumns": "96,101,98,99,109,109,119,100",
+                        "endOffsets": "147,249,348,448,558,668,788,889"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,15",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "286,383,485,584,684,794,904,1456",
+                        "endColumns": "96,101,98,99,109,109,119,100",
+                        "endOffsets": "378,480,579,679,789,899,1019,1552"
+                    }
+                }
+            ]
+        }
+    ]
+}

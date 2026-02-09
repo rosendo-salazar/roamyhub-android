@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.roamyhub.android.feature.auth-release-69:/raw/firebase_common_keep.xml",
+        "source": "com.roamyhub.android.feature.auth-firebase-common-21.0.0-56:/raw/firebase_common_keep.xml"
+    }
+]

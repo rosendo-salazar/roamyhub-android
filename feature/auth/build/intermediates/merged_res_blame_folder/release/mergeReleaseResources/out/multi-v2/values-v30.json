@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.roamyhub.android.feature.auth-mergeReleaseResources-67:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/Users/rosendosalazar/.gradle/caches/8.13/transforms/3e468eea90fe36a527fc22781c121276/transformed/material3-release/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.roamyhub.android.feature.auth-release-69:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/Users/rosendosalazar/.gradle/caches/8.13/transforms/3e468eea90fe36a527fc22781c121276/transformed/material3-release/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

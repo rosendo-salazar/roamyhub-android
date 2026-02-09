@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.roamyhub.android.core.data-release-31:/animator/fragment_close_enter.xml",
+        "source": "com.roamyhub.android.core.data-fragment-1.5.1-22:/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.core.data-release-31:/animator/fragment_fade_enter.xml",
+        "source": "com.roamyhub.android.core.data-fragment-1.5.1-22:/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.core.data-release-31:/animator/fragment_close_exit.xml",
+        "source": "com.roamyhub.android.core.data-fragment-1.5.1-22:/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.core.data-release-31:/animator/fragment_open_exit.xml",
+        "source": "com.roamyhub.android.core.data-fragment-1.5.1-22:/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.core.data-release-31:/animator/fragment_fade_exit.xml",
+        "source": "com.roamyhub.android.core.data-fragment-1.5.1-22:/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "com.roamyhub.android.core.data-release-31:/animator/fragment_open_enter.xml",
+        "source": "com.roamyhub.android.core.data-fragment-1.5.1-22:/animator/fragment_open_enter.xml"
+    }
+]
