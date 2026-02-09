@@ -16,7 +16,7 @@ import com.roamyhub.android.viewmodel.MainViewModel
 
 /**
  * Root navigation host for the RoamyHub app
- * Handles navigation between auth and main screens based on authentication state
+ * Allows guest browsing with authentication for specific features
  */
 @Composable
 fun RoamyNavHost(
@@ -27,41 +27,40 @@ fun RoamyNavHost(
     val navController = rememberNavController()
     val authState by viewModel.authState.collectAsState()
 
-    when (authState) {
-        is AuthState.Loading -> {
-            LoadingIndicator()
+    // Show loading indicator during initial auth check
+    if (authState is AuthState.Loading) {
+        LoadingIndicator()
+        return
+    }
+
+    // Always show main app - no auth gate
+    NavHost(
+        navController = navController,
+        startDestination = Route.Main.Graph.route,
+        modifier = modifier
+    ) {
+        // Main app graph - always accessible
+        composable(Route.Main.Graph.route) {
+            MainScreen(
+                initialDeepLink = initialDeepLink,
+                onNavigateToAuth = {
+                    navController.navigate("auth_graph")
+                },
+                onSignOut = {
+                    viewModel.signOut()
+                    // Stay on main screen, but views will show guest content
+                }
+            )
         }
-        is AuthState.Unauthenticated -> {
-            NavHost(
-                navController = navController,
-                startDestination = "auth_graph",
-                modifier = modifier
-            ) {
-                authNavGraph(
-                    navController = navController,
-                    onNavigateToHome = {
-                        navController.navigate(Route.Main.Graph.route) {
-                            popUpTo("auth_graph") { inclusive = true }
-                        }
-                    }
-                )
-            }
-        }
-        is AuthState.Authenticated -> {
-            NavHost(
-                navController = navController,
-                startDestination = Route.Main.Graph.route,
-                modifier = modifier
-            ) {
-                composable(Route.Main.Graph.route) {
-                    MainScreen(
-                        initialDeepLink = initialDeepLink,
-                        onNavigateToAuth = {
-                            viewModel.signOut()
-                        }
-                    )
+
+        // Auth graph - accessible from guest prompts
+        authNavGraph(
+            navController = navController,
+            onNavigateToHome = {
+                navController.navigate(Route.Main.Graph.route) {
+                    popUpTo("auth_graph") { inclusive = true }
                 }
             }
-        }
+        )
     }
 }

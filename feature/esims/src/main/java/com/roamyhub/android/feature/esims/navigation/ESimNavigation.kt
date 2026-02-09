@@ -25,8 +25,7 @@ object ESimRoutes {
  * NavGraphBuilder extension to add eSIM navigation graph
  */
 fun NavGraphBuilder.esimNavGraph(
-    navController: NavHostController,
-    onNavigateBack: () -> Unit
+    navController: NavHostController
 ) {
     // eSIM List Screen
     composable(route = ESimRoutes.LIST) {

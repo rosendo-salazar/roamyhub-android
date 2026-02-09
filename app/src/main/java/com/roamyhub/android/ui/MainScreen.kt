@@ -31,6 +31,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.roamyhub.android.core.domain.model.user.AuthState
 import com.roamyhub.android.navigation.Route
 import com.roamyhub.android.version.ForceUpdateDialog
 import com.roamyhub.android.version.VersionStatus
@@ -42,12 +43,14 @@ import com.roamyhub.android.viewmodel.MainViewModel
 @Composable
 fun MainScreen(
     onNavigateToAuth: () -> Unit,
+    onSignOut: () -> Unit,
     modifier: Modifier = Modifier,
     initialDeepLink: String? = null,
     viewModel: MainViewModel = hiltViewModel()
 ) {
     val navController = rememberNavController()
     var selectedTab by rememberSaveable { mutableIntStateOf(0) }
+    val authState by viewModel.authState.collectAsState()
     val versionStatus by viewModel.versionStatus.collectAsState()
 
     // TODO: Handle deep link navigation when implemented
@@ -92,7 +95,9 @@ fun MainScreen(
     ) { paddingValues ->
         MainNavHost(
             navController = navController,
+            authState = authState,
             onNavigateToAuth = onNavigateToAuth,
+            onSignOut = onSignOut,
             modifier = Modifier.padding(paddingValues)
         )
     }
@@ -128,7 +133,9 @@ private fun BottomNavigationBar(
 @Composable
 private fun MainNavHost(
     navController: NavHostController,
+    authState: AuthState,
     onNavigateToAuth: () -> Unit,
+    onSignOut: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     NavHost(
@@ -143,10 +150,19 @@ private fun MainNavHost(
             PlaceholderScreen("Browse")
         }
         composable(Route.Main.MyESims.route) {
-            PlaceholderScreen("My eSIMs")
+            // eSIM list requires authentication
+            com.roamyhub.android.feature.esims.ui.ESimListScreenWrapper(
+                authState = authState,
+                onNavigateToAuth = onNavigateToAuth
+            )
         }
         composable(Route.Main.Profile.route) {
-            PlaceholderScreen("Profile")
+            // Profile shows guest content if not authenticated
+            com.roamyhub.android.feature.profile.ui.ProfileScreenWrapper(
+                authState = authState,
+                onNavigateToAuth = onNavigateToAuth,
+                onSignOut = onSignOut
+            )
         }
     }
 }
