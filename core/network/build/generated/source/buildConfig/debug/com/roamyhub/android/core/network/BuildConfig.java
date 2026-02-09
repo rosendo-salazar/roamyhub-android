@@ -8,5 +8,5 @@ public final class BuildConfig {
   public static final String LIBRARY_PACKAGE_NAME = "com.roamyhub.android.core.network";
   public static final String BUILD_TYPE = "debug";
   // Field from build type: debug
-  public static final String API_BASE_URL = "https://api-dev.roamyhub.com/v1/";
+  public static final String API_BASE_URL = "https://api-stage.flyroamy.com/api";
 }

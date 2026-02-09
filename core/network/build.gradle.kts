@@ -16,14 +16,14 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
 
-        // API base URL configuration
-        buildConfigField("String", "API_BASE_URL", "\"https://api.roamyhub.com/v1/\"")
+        // API base URL configuration (matching iOS)
+        buildConfigField("String", "API_BASE_URL", "\"https://api-stage.flyroamy.com/api\"")
     }
 
     buildTypes {
         debug {
-            // Use staging/dev API for debug builds if needed
-            buildConfigField("String", "API_BASE_URL", "\"https://api-dev.roamyhub.com/v1/\"")
+            // Use staging API for debug builds (matching iOS staging environment)
+            buildConfigField("String", "API_BASE_URL", "\"https://api-stage.flyroamy.com/api\"")
         }
         release {
             isMinifyEnabled = false
@@ -31,7 +31,8 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            buildConfigField("String", "API_BASE_URL", "\"https://api.roamyhub.com/v1/\"")
+            // Production points to staging for now (matching iOS)
+            buildConfigField("String", "API_BASE_URL", "\"https://api-stage.flyroamy.com/api\"")
         }
     }
 
